@@ -2,7 +2,7 @@ import React from "react";
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 
-const Header = () => {
+const Hero = () => {
   return (
     <>
       <div className="max-w-7xl mx-auto pt-20 px-6 flex flex-col justify-start items-center gap-8 mb-4">
@@ -52,4 +52,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
