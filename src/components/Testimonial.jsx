@@ -8,11 +8,11 @@ const Testimonial = () => {
         What people are saying
       </h1>
 
-      <div className="flex items-start justify-center gap-2 w-full flex-wrap">
+      <div className="flex items-start justify-center gap-6 w-full flex-wrap">
         {testimonials.map((testimonial, key) => (
           <div
             key={key}
-            className="border border-neutral-800 flex flex-col items-start p-6 rounded-lg w-1/3 gap-4"
+            className="border border-neutral-800 flex flex-col items-start p-6 rounded-lg w-[300px] gap-4"
           >
             <p className="text-md text-neutral-500">{testimonial.text}</p>
             <div className="flex items-center w-full gap-4 justify-start">
