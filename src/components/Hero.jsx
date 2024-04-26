@@ -5,7 +5,7 @@ import video2 from "../assets/video2.mp4";
 const Hero = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto pt-20 px-6 flex flex-col justify-start items-center gap-8 mb-4">
+      <div className="max-w-7xl mx-auto pt-20 px-6 flex flex-col justify-start items-center gap-8">
         <h1 className="text-2xl md:text-3xl lg:text-5xl W:full md:w-1/2 mt-12 text-center leading-14">
           VirtualR Build tool{" "}
           <span className="bg-gradient-to-r from-orange-600 via-red-600 to-red-900 text-transparent bg-clip-text">
