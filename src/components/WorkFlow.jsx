@@ -6,7 +6,7 @@ import { CheckCircle2 } from "lucide-react";
 const WorkFlow = () => {
   return (
     <>
-      <div className="border-t pt-12 flex items-center flex-col gap-12">
+      <div className="border-t border-neutral-700 pt-12 flex items-center flex-col gap-12">
         <h1 className="text-2xl md:text-3xl lg:text-5xl w-full md:w-1/2 text-center leading-14 border-neutral-800">
           Accelerate your{" "}
           <span className="bg-gradient-to-r from-orange-600 via-red-600 to-red-900 text-transparent bg-clip-text">
