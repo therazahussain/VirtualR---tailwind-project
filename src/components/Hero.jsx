@@ -12,7 +12,7 @@ const Hero = () => {
             for developers
           </span>
         </h1>
-        <p className="text-neutral-600 text-center text-xs md:text-md">
+        <p className="text-neutral-600 text-center text-sm md:text-md">
           Empower your creativity and bring your VR app ideas to life with out
           initutive developement tools. <br /> Get Started today and turn your
           imagination into immersive reality.
