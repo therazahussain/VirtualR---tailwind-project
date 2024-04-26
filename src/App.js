@@ -2,6 +2,7 @@ import './App.css';
 import Feature from './components/Feature';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Pricing from './components/Pricing';
 import WorkFlow from './components/WorkFlow';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Feature />
       <WorkFlow />
+      <Pricing />
       </div>
     </>
   );
