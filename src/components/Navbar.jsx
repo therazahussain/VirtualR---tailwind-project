@@ -29,7 +29,7 @@ const Navbar = () => {
           <button className="border-2 border-white px-[5px] rounded-md p-1">
             Sign In
           </button>
-          <button className="bg-orange-500 px-[5px] border-2 border-orange-500 rounded-md">
+          <button className="bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 px-[5px] rounded-md">
             Create an Account
           </button>
         </div>
