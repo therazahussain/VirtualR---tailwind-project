@@ -17,18 +17,12 @@ const Feature = () => {
 
       <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 p-4 items-start">
         {features.map((feature, key) => (
-          <div
-            key={key}
-            className="flex flex-col items-center justify-between gap-2"
-          >
-            <div className="flex items-start justify-between text-sm gap-2">
-              <span className="text-orange-500">{feature.icon}</span>
-              <span>{feature.text}</span>
+          <div key={key} className="flex items-start justify-between gap-8">
+            <span className="text-orange-500">{feature.icon}</span>
+            <div className="text-left w-full flex items-start justify-start flex-col text-sm gap-2">
+              <p>{feature.text}</p>
+              <p className="text-neutral-600 text-sm">{feature.description}</p>
             </div>
-
-            <p className="text-neutral-600 w-full text-sm">
-              {feature.description}
-            </p>
           </div>
         ))}
       </div>
